@@ -1,0 +1,45 @@
+.content {
+	padding: 30px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.card__1 {
+	width: 304px;
+}
+
+.form__fill,
+.form__created {
+	display: flex;
+	flex-direction: column;
+}
+
+.error {
+	font-size: 14px;
+	font-weight: 700;
+	color: #ff3434;
+}
+
+.actions {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.button {
+	padding: 5px;
+	font-size: 16px;
+	width: 60%;
+}
+
+.card__2 {
+	margin-left: 50px;
+	width: 304px;
+}
+
+.card__2.hide {
+	visibility: hidden;
+	opacity: 0;
+	width: 0;
+}
